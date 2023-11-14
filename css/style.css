@@ -139,7 +139,13 @@ aside {
 }
 .article_1_butn {
   padding: 9px 50px 9px 51px;
+  color: var(--textcolor);
   background-color: var(--buttncolor);
+  font-size: var(--font14);
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
   border: none;
   cursor: pointer;
 }
