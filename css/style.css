@@ -54,6 +54,7 @@ header {
 .search_icon {
   margin-left: 100px;
   color: var(--text2color);
+  cursor: pointer;
 }
 .header_btn {
   border-radius: var(--BDradius);
@@ -106,12 +107,14 @@ aside {
 .article_1 {
   grid-area: article_1;
   /* background-color: aqua; */
+}
+.article_div {
   position: relative;
 }
 .article_1_img {
   width: 100%;
 }
-.article_1_div {
+.article_2_div {
   display: flex;
   justify-content: space-between;
   background-color: var(--textcolor);
